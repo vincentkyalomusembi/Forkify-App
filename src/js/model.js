@@ -26,5 +26,14 @@ export const loadRecipe = async function (id) {
   } catch (err) {
     //Temporaliy error handling
     console.error(`${err}😊😊😊😊`);
+    throw err;
+  }
+};
+
+export const loadSearchResults = async function (query) {
+  try {
+  } catch (err) {
+    console.error(`${err}😊😊😊😊`);
+    throw err;
   }
 };
